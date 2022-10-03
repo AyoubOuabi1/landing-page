@@ -1,4 +1,27 @@
-*{
+body{
     background-color: #FBF7EE;
-    box-sizing: border-box;
+    
+}
+.part2{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.carts{
+    width: 18%;
+    background-color: #fff;
+    border: 3px solid wheat ;
+    margin: 2px;
+   padding: 20px;
+    border-radius: 5px;
+}
+.carts>h2{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 600px) {
+
+    
+    
 }
