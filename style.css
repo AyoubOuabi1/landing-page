@@ -1,4 +1,31 @@
 *{
     background-color: #FBF7EE;
-    box-sizing: border-box;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+}
+button
+{
+    color: aliceblue;
+    background-color: #0B48A8;
+    border-radius: 5px ;
+    border: #0B48A8;
+}
+button:hover
+{
+    background-color: #2a5cac;
+}
+.navbar
+{
+    align-items: center;
+    display: flex;
 }
