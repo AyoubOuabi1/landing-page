@@ -20,8 +20,21 @@ body{
     margin: 0;
     padding: 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
+    .part2{ 
+        justify-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,350px));
+        gap: 50px;
+    }
+    .carts{
+        width: 90%;
+         margin: 2px;
+       padding: 20px;
+        border-radius: 5px;
+    }
+    
     
     
 }
