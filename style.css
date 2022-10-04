@@ -136,12 +136,13 @@ h1 {
     margin-bottom: 20px;
 
 }
+
 .offer {
     background-color: #fbf3e3;
     display: flex;
     flex-direction: column;
     border: solid gray 1px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 180px;
     height: 270px;
     padding-left: 20px;
@@ -181,7 +182,6 @@ div.link {
     font-weight: bold;
     line-height: 13px;
     
-    
 }
 li {
     color: #000;
@@ -189,7 +189,7 @@ li {
 .link {
     width: 90%;
     height: 40px;
-    border-radius:3px;
+    border-radius:8px;
     margin-top: 16px;
     box-sizing: border-box;
     
@@ -229,15 +229,25 @@ strong {
 #line {
     display: flex;
     flex-wrap: wrap;
+    
 }
 #last {
     background-color: #fff4ec;
     box-sizing: border-box;
+    height: 200px;
+    margin-bottom: 88px;
 }
 #last p {
     font-size: 12px;
     color: #000;
 }
-#last img {
-    
+#last div {
+    height: 70x;
+    width: 140px;
+    margin-top: 16px;
 }
+#last div img {
+    height: 100%;
+    width: 100%;
+}
+ 
