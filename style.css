@@ -1,16 +1,8 @@
 body {
     min-width: 300px;
-    
     background-color: #FBF7EE;
-}
-*{
-    box-sizing: border-box;
-    paidding: 0;
-    margin: 0;
-}
-
-ul{
-    display: flex;
+    }
+  ul{  display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0%;
