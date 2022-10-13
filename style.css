@@ -15,10 +15,20 @@ ul{
     justify-content: space-between;
     padding: 0%;
 }
+
+.carts{
+    width: 18%;
+    background-color: #fff;
+    border: 3px solid wheat ;
+    margin: 2px;
+     padding: 20px;
+    border-radius: 5px;
+
 li{
     margin-left: 20px;
     list-style: none;
   
+
 }
 a{
     text-decoration: none;
