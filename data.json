@@ -7,13 +7,13 @@
   
   "ads": {
     "routing": {
-      "banner": "admob-banner",
-      "inter": "admob-inter",
-      "native": "admob-native",
-      "rewarded": "admob-rewarded"
+      "banner": "admob",
+      "inter": "admob",
+      "native": "admob",
+      "rewarded": "admob"
     },
     "settings": {
-      "interval_click": 4,
+      "interval_click": 1,
       "show_ad_on_start": true
     },
     "mediation_mode": "direct",
