@@ -1,0 +1,395 @@
+{
+  "AppRedirect": {
+    "status": false,
+    "redirect_link": "https://play.google.com/store/apps/details?id=com.test.demo"
+  },
+  
+  
+  "ads": {
+    "routing": {
+      "banner": "admob-banner",
+      "inter": "admob-inter",
+      "native": "admob-native",
+      "rewarded": "admob-rewarded"
+    },
+    "settings": {
+      "interval_click": 4,
+      "show_ad_on_start": true
+    },
+    "mediation_mode": "direct",
+    "mediation": {
+      "levelplay": {
+        "enabled": false,
+        "demand_sources": [
+          "admob",
+          "facebook",
+          "vungle"
+        ]
+      },
+      "admob_mediation": {
+        "enabled": false,
+        "demand_sources": [
+          "facebook",
+          "inmobi"
+        ]
+      }
+    },
+    "admob": {
+      "enabled": true,
+      "app_id": "ca-app-pub-3940256099942544~3347511713",
+      "banner": {
+        "enabled": true,
+        "adUnitId": "ca-app-pub-3940256099942544/6300978111"
+      },
+      "inter": {
+        "enabled": true,
+        "adUnitId": "ca-app-pub-3940256099942544/1033173712"
+      },
+      "native": {
+        "enabled": true,
+        "adUnitId": "ca-app-pub-3940256099942544/2247696110"
+      },
+      "rewarded": {
+        "enabled": true,
+        "adUnitId": "ca-app-pub-3940256099942544/5224354917"
+      }
+    },
+    "facebook": {
+      "enabled": true,
+      "banner": {
+        "enabled": true,
+        "adUnitId": "953840557789624_953840924456254"
+      },
+      "inter": {
+        "enabled": true,
+        "adUnitId": "953840557789624_953841017789578"
+      },
+      "native": {
+        "enabled": true,
+        "adUnitId": "953840557789624_953841124456234"
+      },
+      "rewarded": {
+        "enabled": true,
+        "adUnitId": "953840557789624_953841271122886"
+      }
+    },
+    "vungle": {
+      "enabled": true,
+      "app_id": "0",
+      "banner": {
+        "enabled": true,
+        "adUnitId": "BN-0"
+      },
+      "inter": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "native": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "rewarded": {
+        "enabled": true,
+        "adUnitId": "0"
+      }
+    },
+    "ironsource": {
+      "enabled": true,
+      "app_key": "0",
+      "banner": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "inter": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "native": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "rewarded": {
+        "enabled": true,
+        "adUnitId": "0"
+      }
+    },
+    "unity": {
+      "enabled": true,
+      "game_id": "5736727",
+      "banner": {
+        "enabled": true,
+        "adUnitId": "Banner_Android"
+      },
+      "inter": {
+        "enabled": true,
+        "adUnitId": "Interstitial_Android"
+      },
+      "native": {
+        "enabled": false,
+        "adUnitId": ""
+      },
+      "rewarded": {
+        "enabled": true,
+        "adUnitId": "Rewarded_Android"
+      }
+    },
+    "inmobi": {
+      "enabled": true,
+      "account_id": "0",
+      "banner": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "inter": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "native": {
+        "enabled": true,
+        "adUnitId": "0"
+      },
+      "rewarded": {
+        "enabled": true,
+        "adUnitId": "0"
+      }
+    }
+  },
+
+  "Addons": [
+
+    {
+      "id": 1,
+	  "title": "Test Title 1",
+      "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "isLocked": false,
+      "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
+      "trending": true,
+      "rating": 4.8,
+      "isNew": true,
+      "dateAdded": "2026-09-25",
+      "tags": [
+        "Realistic",
+		"mods"
+      ],
+      "categories": [
+        "Category2"
+      ],
+      "preview": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcmgnnqnFkuX5or2grX0XU4wgGLsDh0nM5OccjPtJSek4omDAEN6lTqgE&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ay9fpqDb6arNdqVP9Ok72RP9J7enP5oQG8kFY8_XzQ&s=10"
+      ],
+      "worksOnAllVersions": true,
+      "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+
+
+	
+    {
+      "id": 2,
+	  "title": "Test Title 2",
+      "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "isLocked": false,
+      "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
+      "trending": true,
+      "rating": 4.6,
+      "isNew": true,
+      "dateAdded": "2026-09-20",
+      "tags": [
+        "PBR",
+		"mods"
+      ],
+      "categories": [
+        "Category1"
+      ],
+      "preview": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ay9fpqDb6arNdqVP9Ok72RP9J7enP5oQG8kFY8_XzQ&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcmgnnqnFkuX5or2grX0XU4wgGLsDh0nM5OccjPtJSek4omDAEN6lTqgE&s=10"
+      ],
+      "worksOnAllVersions": true,
+      "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+	
+    {
+      "id": 3,
+	  "title": "Test Title 3",
+      "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "isLocked": false,
+      "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
+      "trending": true,
+      "rating": 4.8,
+      "isNew": true,
+      "dateAdded": "2026-09-25",
+      "tags": [
+        "Vibrant Visuals",
+		"mods"
+      ],
+      "categories": [
+        "Category1"
+      ],
+      "preview": [
+        "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Spring-Game-Drop-2026-OV-PMP-1280x720.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLIsfExo6gSgpc6cK5OPUwDE-cA1QnCGG1oyOfa2W4yM-vGT2o2h-PAc&s=10"
+      ],
+      "worksOnAllVersions": true,
+      "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+	
+	    {
+      "id": 4,
+	  "title": "Test Title 4",
+      "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "isLocked": true,
+      "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
+      "trending": true,
+      "rating": 4.8,
+      "isNew": true,
+      "dateAdded": "2026-09-25",
+      "tags": [
+        "RTX",
+		"mods"
+      ],
+      "categories": [
+        "Category3"
+      ],
+      "preview": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLIsfExo6gSgpc6cK5OPUwDE-cA1QnCGG1oyOfa2W4yM-vGT2o2h-PAc&s=10",
+        "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Spring-Game-Drop-2026-OV-PMP-1280x720.jpg"
+      ],
+      "worksOnAllVersions": true,
+      "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+
+    {
+      "id": 5,
+	  "title": "Test Title 5",
+      "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "isLocked": true,
+      "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
+      "trending": true,
+      "rating": 4.6,
+      "isNew": true,
+      "dateAdded": "2026-09-20",
+      "tags": [
+        "Cinematic",
+		"mods"
+      ],
+      "categories": [
+        "Category1"
+      ],
+      "preview": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMM-myU2EanWEkiUEl9-TlyEs1lt9v1T0EAxAcvaY8XSUYIfCW4H0R3HUA&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGqjmWWdd9t8c_sdLmeSBidZNYLJOIFYB6g8yRa6WwpNiomw8YqHa6AHf&s=10"
+      ],
+      "worksOnAllVersions": true,
+      "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+	
+    {
+      "id": 6,
+	  "title": "Newb CraftEdge Shader",
+      "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "isLocked": true,
+      "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
+      "trending": true,
+      "rating": 4.7,
+      "isNew": true,
+      "dateAdded": "2026-09-20",
+      "tags": [
+        "Realistic",
+		"mods"
+      ],
+      "categories": [
+        "Category4"
+      ],
+      "preview": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGqjmWWdd9t8c_sdLmeSBidZNYLJOIFYB6g8yRa6WwpNiomw8YqHa6AHf&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMM-myU2EanWEkiUEl9-TlyEs1lt9v1T0EAxAcvaY8XSUYIfCW4H0R3HUA&s=10"
+      ],
+      "worksOnAllVersions": true,
+      "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+	
+	
+	
+  ],
+  
+  
+  "AppsPromote": [
+  
+ 
+
+  ],
+  
+  
+  "AppInfo": {
+    "name": "Test One",
+    "subtitle": "Test Two"
+  },
+  
+  
+  "Hero": {
+    "titleLine1": "xxxxxxxxxxxxx",
+    "titleLine2": "yyyyyyyyyyy",
+    "titleLine3": "zzzzzzzzz",
+    "description": "Just for testing bla bla bla"
+  },
+  
+  
+  "Categories": [
+    {
+      "name": "Category1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ugkMfL2XOFz6j4avCi4MGy6wwpb0nDfApEkeoF02RmEvbva9XvrhgdE&s=10",
+      "description": "Category1"
+    },
+    {
+      "name": "Category2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBhNILaypy7uj10gqSjw8kIKk4bWG8LeCDVVg7PRQVywpDNtikrbmyODk&s=10",
+      "description": "Category2"
+    },
+    {
+      "name": "Category3",
+      "image": "https://i.ytimg.com/vi/1BqR_8kCVrw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBK-v4ZlxpgITp5N_C9STaL5ugLKQ",
+      "description": "Category3"
+    },
+    {
+      "name": "Category4",
+      "image": "https://i.ytimg.com/vi/5PSduh4yztk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAXvIjjo9SI1tW08sWZNgBxJGhsng",
+      "description": "Category4"
+    }
+  ],
+  
+  "UIColors": {
+    "appBackground": "#081C35",
+    "primaryButton": "#2DBE5B",
+    "panelBackground": "#081C35",
+    "sectionPanel": "#081C35",
+    "addonListPanel": "#D2A344",
+    "howToUsePanel": "#DDB052",
+    "moreAppsPanel": "#D2A344",
+    "startButtonText": "#FFFFFF",
+    "pageBackground": {
+      "light": "#FFFFFF",
+      "dark": "#121212"
+    }
+  },
+  
+  "PrivacyUI": {
+    "screenBackground": "#061E12",
+    "header": "#081C35",
+    "card": "#FFFFFF",
+    "button": "#2DBE5B"
+  },
+  
+  "RatingPrompt": {
+    "enabled": false,
+    "requiredBeforeDownload": true,
+    "oncePerInstall": true
+  },
+  
+  "HomeBackground": {
+    "enabled": false,
+    "imageUrl": "ccccccccccc"
+  }
+  
+
+}
