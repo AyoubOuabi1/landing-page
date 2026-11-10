@@ -27,7 +27,7 @@
         ]
       },
       "admob_mediation": {
-        "enabled": true,
+        "enabled": false,
         "demand_sources": [
           "facebook"
         ]
