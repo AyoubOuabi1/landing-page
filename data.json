@@ -1,22 +1,22 @@
 {
   "AppRedirect": {
     "status": false,
-    "redirect_link": "https://play.google.com/store/apps/details?id=com.esota.studio.among.makers"
+    "redirect_link": "https://play.google.com/store/apps/details?id=com.test.demo"
   },
-  
-  
+
+
   "ads": {
     "routing": {
-      "banner": "facebook",
-      "inter": "facebook",
-      "native": "admob-native",
-      "rewarded": "admob-rewarded"
+      "banner": ["admob", "unity"],
+      "inter": ["admob", "unity"],
+      "native": ["admob"],
+      "rewarded": ["admob", "unity"]
     },
     "settings": {
       "interval_click": 4,
       "show_ad_on_start": true
     },
-    "mediation_mode": "direct",
+    "mediation_mode": "admob",
     "mediation": {
       "levelplay": {
         "enabled": false,
@@ -27,10 +27,9 @@
         ]
       },
       "admob_mediation": {
-        "enabled": false,
+        "enabled": true,
         "demand_sources": [
-          "facebook",
-          "inmobi"
+          "facebook"
         ]
       }
     },
@@ -159,7 +158,7 @@
 
     {
       "id": 1,
-	  "title": "Test Title 1",
+      "title": "Test Title 1",
       "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "isLocked": false,
       "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
@@ -169,7 +168,7 @@
       "dateAdded": "2026-09-25",
       "tags": [
         "Realistic",
-		"mods"
+        "mods"
       ],
       "categories": [
         "Category2"
@@ -183,10 +182,10 @@
     },
 
 
-	
+
     {
       "id": 2,
-	  "title": "Test Title 2",
+      "title": "Test Title 2",
       "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "isLocked": false,
       "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
@@ -196,7 +195,7 @@
       "dateAdded": "2026-09-20",
       "tags": [
         "PBR",
-		"mods"
+        "mods"
       ],
       "categories": [
         "Category1"
@@ -208,10 +207,10 @@
       "worksOnAllVersions": true,
       "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
     },
-	
+
     {
       "id": 3,
-	  "title": "Test Title 3",
+      "title": "Test Title 3",
       "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "isLocked": false,
       "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
@@ -221,7 +220,7 @@
       "dateAdded": "2026-09-25",
       "tags": [
         "Vibrant Visuals",
-		"mods"
+        "mods"
       ],
       "categories": [
         "Category1"
@@ -233,10 +232,10 @@
       "worksOnAllVersions": true,
       "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
     },
-	
-	    {
+
+    {
       "id": 4,
-	  "title": "Test Title 4",
+      "title": "Test Title 4",
       "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "isLocked": true,
       "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
@@ -246,7 +245,7 @@
       "dateAdded": "2026-09-25",
       "tags": [
         "RTX",
-		"mods"
+        "mods"
       ],
       "categories": [
         "Category3"
@@ -261,7 +260,7 @@
 
     {
       "id": 5,
-	  "title": "Test Title 5",
+      "title": "Test Title 5",
       "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "isLocked": true,
       "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
@@ -271,7 +270,7 @@
       "dateAdded": "2026-09-20",
       "tags": [
         "Cinematic",
-		"mods"
+        "mods"
       ],
       "categories": [
         "Category1"
@@ -283,10 +282,10 @@
       "worksOnAllVersions": true,
       "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
     },
-	
+
     {
       "id": 6,
-	  "title": "Newb CraftEdge Shader",
+      "title": "Newb CraftEdge Shader",
       "addonLink": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "isLocked": true,
       "description": "Test test test test test test test test test test test, test test test test test test test test test test test test test test test.",
@@ -296,7 +295,7 @@
       "dateAdded": "2026-09-20",
       "tags": [
         "Realistic",
-		"mods"
+        "mods"
       ],
       "categories": [
         "Category4"
@@ -308,33 +307,33 @@
       "worksOnAllVersions": true,
       "allVersionsDownloadLink": "xxxxxxxxxxxxxxxxxxxxxxxx"
     }
-	
-	
-	
-  ],
-  
-  
-  "AppsPromote": [
-  
- 
+
+
 
   ],
-  
-  
+
+
+  "AppsPromote": [
+
+
+
+  ],
+
+
   "AppInfo": {
     "name": "Test One",
     "subtitle": "Test Two"
   },
-  
-  
+
+
   "Hero": {
     "titleLine1": "xxxxxxxxxxxxx",
     "titleLine2": "yyyyyyyyyyy",
     "titleLine3": "zzzzzzzzz",
     "description": "Just for testing bla bla bla"
   },
-  
-  
+
+
   "Categories": [
     {
       "name": "Category1",
@@ -357,7 +356,7 @@
       "description": "Category4"
     }
   ],
-  
+
   "UIColors": {
     "appBackground": "#081C35",
     "primaryButton": "#2DBE5B",
@@ -372,24 +371,24 @@
       "dark": "#121212"
     }
   },
-  
+
   "PrivacyUI": {
     "screenBackground": "#061E12",
     "header": "#081C35",
     "card": "#FFFFFF",
     "button": "#2DBE5B"
   },
-  
+
   "RatingPrompt": {
     "enabled": false,
     "requiredBeforeDownload": true,
     "oncePerInstall": true
   },
-  
+
   "HomeBackground": {
     "enabled": false,
     "imageUrl": "ccccccccccc"
   }
-  
+
 
 }
