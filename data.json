@@ -7,13 +7,13 @@
 
   "ads": {
     "routing": {
-      "banner": ["admob", "unity","facebook"],
-      "inter": ["admob", "unity","facebook"],
-      "native": ["admob","facebook"],
-      "rewarded": ["admob", "unity","facebook"]
+      "banner": ["facebook", "unity","admob"],
+      "inter": ["facebook", "unity","admob"],
+      "native": ["facebook","admob"],
+      "rewarded": ["facebook", "unity","admob"]
     },
     "settings": {
-      "interval_click": 4,
+      "interval_click": 1,
       "show_ad_on_start": true
     },
     "mediation_mode": "admob",
@@ -50,26 +50,26 @@
       },
       "rewarded": {
         "enabled": true,
-        "adUnitId": "ca-app-pub-324354917"
+        "adUnitId": "ca-app-pub-3940256099942544/5354046379"
       }
     },
     "facebook": {
       "enabled": true,
       "banner": {
         "enabled": true,
-        "adUnitId": "953840557789624_953840924456254"
+        "adUnitId": "IMG_16_9_APP_INSTALL#953840557789624_953840924456254"
       },
       "inter": {
         "enabled": true,
-        "adUnitId": "953840557789624_953841017789578"
+        "adUnitId": "IMG_16_9_APP_INSTALL#953840557789624_953841017789578"
       },
       "native": {
         "enabled": true,
-        "adUnitId": "953840557789624_953841124456234"
+        "adUnitId": "IMG_16_9_APP_INSTALL#953840557789624_953841124456234"
       },
       "rewarded": {
         "enabled": true,
-        "adUnitId": "953840557789624_953841271122886"
+        "adUnitId": "VID_HD_9_16_39S_LINK#953840557789624_953841271122886"
       }
     },
     "vungle": {
