@@ -7,10 +7,10 @@
 
   "ads": {
     "routing": {
-      "banner": ["admob", "unity"],
-      "inter": ["admob", "unity"],
-      "native": ["admob"],
-      "rewarded": ["admob", "unity"]
+      "banner": ["admob", "unity","facebook"],
+      "inter": ["admob", "unity","facebook"],
+      "native": ["admob","facebook"],
+      "rewarded": ["admob", "unity","facebook"]
     },
     "settings": {
       "interval_click": 4,
@@ -35,22 +35,22 @@
     },
     "admob": {
       "enabled": true,
-      "app_id": "ca-app-pub-3940256099942544~3347511713",
+      "app_id": "ca-app-pub-313",
       "banner": {
         "enabled": true,
-        "adUnitId": "ca-app-pub-3940256099942544/6300978111"
+        "adUnitId": "ca-app-pub-394078111"
       },
       "inter": {
         "enabled": true,
-        "adUnitId": "ca-app-pub-3940256099942544/1033173712"
+        "adUnitId": "ca-app-pub-3940256093712"
       },
       "native": {
         "enabled": true,
-        "adUnitId": "ca-app-pub-3940256099942544/2247696110"
+        "adUnitId": "ca-app-pub-394022247696110"
       },
       "rewarded": {
         "enabled": true,
-        "adUnitId": "ca-app-pub-3940256099942544/5224354917"
+        "adUnitId": "ca-app-pub-324354917"
       }
     },
     "facebook": {
